@@ -1,0 +1,10 @@
+.countries-list {
+  max-height: 90vh;
+  overflow: scroll;
+}
+
+.country-flag {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
