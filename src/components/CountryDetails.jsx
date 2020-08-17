@@ -56,7 +56,7 @@ class CountryDetails extends React.Component {
                     <sup>2</sup>
                   </td>
                 </tr>
-                {this.state.country.borders.length && (
+                {this.state.country.borders.length > 0 && (
                   <tr>
                     <td>Borders</td>
                     <td>
